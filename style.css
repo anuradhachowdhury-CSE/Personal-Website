@@ -1,0 +1,204 @@
+section{
+    height:800px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+     margin:0;
+}
+.first{
+    background-image: url("image/header-bg.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no repeat;
+}
+.second{
+    background-image: url("image/biography-bg.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no repeat;
+}
+.portion{
+    width:40%;
+    float:left;
+}
+.portion img{
+    width:80%;
+}
+.portion .portion-one{
+   
+margin-top: 200px;
+padding-left:150px;
+
+}
+.portion .portion-one h1{
+    color:rgb(224, 41, 111);
+    font-size: 45px;
+    font-weight:800;
+}
+.portion p{
+    font-size:14.5px;
+    color:rgb(126, 118, 118);
+}
+.portion-one h3{
+    font-size: 37px;
+    color:rgb(75, 70, 70);
+    font-weight: 600;
+
+}
+.portion-one a{
+    text-decoration:none;
+    background-color:hsl(335, 80%, 63%);
+    background-image: linear-gradient(45deg,hsl(335, 80%, 63%),rgb(212, 14, 113));
+    padding:10px 20px;
+    border-radius: 5px;
+    color:white;
+}
+.portion .any h1{
+    
+    font-size: 50px;
+    font-weight: 500;
+}
+.second .portion .any a{
+    text-decoration:none;
+    background-color:hsl(335, 80%, 63%);
+    background-image: linear-gradient(45deg,hsl(335, 80%, 63%),rgb(212, 14, 113));
+    padding:10px 20px;
+    border-radius: 5px;
+    color:white;
+}
+.second .portion .any{
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.second .portion{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.first .portion img{
+    margin-top: 120px;
+}
+.third{
+    background-image: url("image/latest-work-bg.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no repeat;
+}
+
+.third h3{
+    text-align: center;
+    color:rgb(75, 70, 70);
+    font-size: 24px;
+}
+.third-extra{
+    background-image: url("image/header-bg.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no repeat;
+}
+.third img{
+    width:28%;
+    height:400px;
+    margin:30px;
+}
+.forth h3,h5{
+    text-align: center;
+    
+}
+.forth p{
+    text-align: center;
+    color:rgb(75, 70, 70);
+}
+.forth span{
+    color:rgb(179, 170, 170);
+}
+.forth .other{
+    text-align: center;
+    margin-top: 70px;
+}
+.forth .other a{
+    text-decoration: none;
+    font-size: 20px;
+    background-image: linear-gradient(45deg,hsl(335, 80%, 63%),rgb(212, 14, 113));
+    padding:40px 20px;
+    border-radius: 5px;
+    color:white;
+}
+.forth .other a span{
+    color:white;
+}
+.forth .other a .ogg{
+    font-size: 25px;
+}
+.forth{
+    background-image: url("image/footer-bg.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no repeat;
+}
+footer{
+    padding: 40px;
+    color:rgb(179, 170, 170);
+}
+.third-extra .portion{
+    box-shadow: 10px 10px 60px;
+    height:400px;
+    width:80%;
+    background-color:lightgray;
+    margin-left: 100px;
+    text-align: center;
+
+}
+.third-extra h1{
+    text-align: center;
+}
+.third-extra h1::before{
+    content: "😊";
+}
+.third-extra h1::after{
+    content: "✔️";
+}
+.third-extra h1,h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#other{
+    border-left: 10px solid;
+    border-image:linear-gradient(blue,red);
+    border-image-slice:1;
+}
+#other:hover{
+    color:blue;
+    background-color:lightgreen;
+}
+#other:hover p{
+    color:maroon;
+    
+}
+footer{
+    text-align: center;
+    padding:40px;
+}
+.form{
+         height:400px;
+        width:80%;
+        background-color:lightgray;
+        margin-left: 100px;
+        text-align: center;
+}
+.form button{
+    background-color: lime;
+}
+/*.form{
+    background-image: url("image/biography-bg.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}*/
