@@ -190,14 +190,14 @@ padding-left:150px;
 .form button{
     background-color: lime;
 }
-.fourth-banner h3,h5,h6{
+.last h3,h5,h6{
     text-align: center;
 }
-.fourth-banner p{
+.last p{
     text-align: center;
     color:rgb(75, 70, 70);
 }
-.forth {
+.last-one {
    margin:0px 25%;
     text-align: center;
     background-color:  #ec4f8e;
@@ -206,7 +206,7 @@ padding-left:150px;
     border-radius: 5px;
     color: white;
 }
-.forth p{
+.last-one p{
     color:white;
 }
 footer{
