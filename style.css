@@ -105,7 +105,7 @@ padding-left:150px;
     height:400px;
     margin:30px;
 }
-.forth h3,h5{
+/**.forth h3,h5{
     text-align: center;
     
 }
@@ -116,6 +116,7 @@ padding-left:150px;
 .forth span{
     color:rgb(179, 170, 170);
 }
+
 .forth .other{
     text-align: center;
     margin-top: 70px;
@@ -141,7 +142,7 @@ padding-left:150px;
     background-position: bottom;
     background-repeat: no repeat;
 }
-
+**/
 .third-extra .portion{
     box-shadow: 10px 10px 60px;
     height:400px;
@@ -172,7 +173,7 @@ padding-left:150px;
 }
 #other:hover{
     color:blue;
-    background-color:lightgreen;
+    background-color:bisque;
 }
 #other:hover p{
     color:maroon;
@@ -188,6 +189,25 @@ padding-left:150px;
 }
 .form button{
     background-color: lime;
+}
+.fourth-banner h3,h5,h6{
+    text-align: center;
+}
+.fourth-banner p{
+    text-align: center;
+    color:rgb(75, 70, 70);
+}
+.forth {
+   margin:0px 25%;
+    text-align: center;
+    background-color:  #ec4f8e;
+    background-image: linear-gradient(45deg, #ec4f8e,#ed4b72);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.forth p{
+    color:white;
 }
 footer{
     text-align: center;
